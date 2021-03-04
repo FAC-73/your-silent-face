@@ -1,7 +1,8 @@
 # your-silent-face
 A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
 
-![Animated GIF of password generator](https://github.com/FAC-73/dream-attack/blob/master/Assets/ReadmeGenerator.gif?raw=true) Watch the video of the generator [here ](https://github.com/FAC-73/dream-attack/blob/master/Assets/README-generator-video.mov)
+![Animated GIF of profile generator application in terminal](https://github.com/FAC-73/your-silent-face/blob/main/assets/Application-recording.gif?raw=true) <br />
+Download the video of the generator [here ](https://github.com/FAC-73/your-silent-face/blob/main/assets/Application-video.mp4?raw=true)
 
 Quickly and easily create a team profile HTML document by using a node.js application in the command line to generate one.
 <br />
@@ -16,6 +17,8 @@ Quickly and easily create a team profile HTML document by using a node.js applic
 
 ## Description
 
+![Profile generator webpage](https://github.com/FAC-73/your-silent-face/blob/main/assets/Team-profile.png?raw=true)
+
 A node.js application that prompts a user for input using [inquirer.js ](https://www.npmjs.com/package/inquirer)generating a html document. The HTML document is generated and written to a directory called dist and can be found [here ](https://github.com/FAC-73/dream-attack/blob/master/export/README.md)
 <br /><br />
 This app uses a test-driven development approach. [JEST ](https://jestjs.io/en/) is used to perform tests on all the class constructors to ensure that they behave as intended.
@@ -24,6 +27,8 @@ Using an object-orientated programming approach, using classes and constructors 
 Separate .js files for each member classes are stored in separate js. files and use the module.export and require methods to pass data. 
 <br /><br />
 To generate the HTML files the FS node module is used to generate strings written in JS. To ensure the UI can scale to accomodate an unlimited number of team members, the html is constructed in a modular way. Starting with the head and body HTML elements. Followed by a new column and a html div with the class card (leveraging Bootstrap CSS styling) each time a new member object is created. Content within the card is appended with information captured from the user input. 
+
+View the webpage output of the generator [here ](https://github.com/FAC-73/your-silent-face/blob/main/dist/team.html)
 
 ## User Story
 
