@@ -21,12 +21,12 @@ Quickly and easily create a team profile HTML document by using a node.js applic
 
 A node.js application that prompts a user for input using [inquirer.js ](https://www.npmjs.com/package/inquirer)generating a html document. The HTML document is generated and written to a directory called dist and can be found [here ](https://github.com/FAC-73/dream-attack/blob/master/export/README.md)
 <br /><br />
-This app uses a test-driven development approach. [JEST ](https://jestjs.io/en/) is used to perform tests on all the class constructors to ensure that they behave as intended.
+This app uses a test-driven development approach. [JEST ](https://jestjs.io/en/) is used to perform tests on all the class constructors to ensure that they behave as intended. A directory named __test__ contains all the test.js files checking the js classes used in the application. 
 <br /><br />
 Using an object-orientated programming approach, using classes and constructors to generate new team members determined by information inputted by the user. The app is run on Node.js and leverages the "Inquirer.js" and "FS" node modules. 
 Separate .js files for each member classes are stored in separate js. files and use the module.export and require methods to pass data. 
 <br /><br />
-To generate the HTML files the FS node module is used to generate strings written in JS. To ensure the UI can scale to accomodate an unlimited number of team members, the html is constructed in a modular way. Starting with the head and body HTML elements. Followed by a new column and a html div with the class card (leveraging Bootstrap CSS styling) each time a new member object is created. Content within the card is appended with information captured from the user input. 
+To generate the HTML files the FS node module is used to generate strings written in JS. To ensure the UI can scale to accomodate an unlimited number of team members, the html is constructed in a modular way. Starting with the head and body HTML elements. Followed by a new row and a html div using the class .card for each new member object that is created. Content within the card is appended with information captured from the user input. 
 
 View the webpage output of the generator [here ](https://github.com/FAC-73/your-silent-face/blob/main/dist/team.html)
 
